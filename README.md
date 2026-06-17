@@ -39,5 +39,22 @@ Jeder Besitzerwechsel wird dauerhaft in der Eigentumshistorie des Tieres gespeic
 ### Datenschutz beim Transfer
 Nur die am Transfer beteiligten Parteien sehen die vollständigen gegenseitigen Kontaktdaten. Dritte sehen lediglich, dass ein Eigentumsübergang stattgefunden hat, nicht jedoch die Identität der Beteiligten.
 
+## 4. Scalopedia Visual Identity Verification (SVIV) — Visueller Fundtier-Abgleich
+Für den Fall, dass ein registriertes Tier entflieht, stellt das Protokoll ein bildbasiertes, nicht-invasives Identifikationsverfahren bereit. Da Reptilien (insb. Schlangen anhand ihrer Kopfschuppenstruktur und Echsen anhand von Farb- und Fleckenmustern) individuelle, biometrische Merkmale aufweisen, nutzt das System diese als digitalen Fingerabdruck.
+
+### Ablauf im Verlustfall:
+1. **Verlustmeldung:** Der Halter markiert die SCA-ID in der App als "Vermisst". Dadurch werden die hinterlegten Identifikationsfotos des Tieres für das öffentliche Notfall-Suchregister freigegeben.
+2. **Fundmeldung & Foto-Upload:** Ein Finder, Tierheim oder eine Behörde kann über eine öffentlich zugängliche Schnittstelle ein Foto des gefundenen Tieres hochladen und die Gattung eingrenzen.
+3. **Algorithmischer Abgleich:** Das System gleicht die biometrischen Muster des Fundtier-Fotos mit den in der Region als vermisst gemeldeten Tieren derselben Art ab.
+4. **Anonymisierte Kontaktaufnahme:** Bei einem Match wird der Halter automatisch benachrichtigt. Die Privatsphäre des Halters bleibt geschützt; die Kommunikation erfolgt über ein anonymisiertes Relay-System, um das Tier sicher zurückzuführen.
+
+## 5. Scalopedia Emergency Response Protocol (SERP) — Giftnotruf- & Serum-Schnittstelle
+Für die Registrierung von potenziell gefährlichen oder giftigen Tieren (Giftschlangen, Skorpione, Spinnen) integriert das Protokoll ein standardisiertes Notfall-Datenblatt, das im Falle eines Unfalls (z. B. Biss- oder Stichverletzung) lebensrettende Sekunden sichert.
+
+### Funktionsweise:
+1. **QR-Code-Notfallscan:** Rettungskräfte oder Notärzte können den QR-Code am Terrarium oder den digitalen Herkunftsnachweis scannen. Dieser Scan schaltet im medizinischen Notfallmodus sofort das spezifische Datenblatt frei.
+2. **Medizinische Evidenz:** Das Protokoll liefert ohne Verzögerung die exakte wissenschaftliche Bezeichnung des Tieres, die Toxizitätsklasse, das spezifisch benötigte Antivenin (Serum) sowie die Dosierungshinweise.
+3. **Logistische Kopplung:** Das System gleicht den Standort des Unfalls mit den Datenbanken der Giftnotrufzentralen und Serum-Depots ab, um den Rettungskräften sofort anzuzeigen, in welcher nächstgelegenen Klinik das passende Antivenin gelagert ist.
+
 ## Leitgedanke
 Die Scalopedia Registry versteht sich nicht als bürokratisches System, sondern als Vertrauensinfrastruktur für eine Community, die verantwortungsvolle Terraristik ernst nimmt. Jede SCA-ID ist ein Versprechen: Dieses Tier existiert, es ist dokumentiert, und seine Geschichte ist nachvollziehbar — für Tierärzte, Behörden, Käufer und die Tiere selbst.
