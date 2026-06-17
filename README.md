@@ -56,5 +56,13 @@ Für die Registrierung von potenziell gefährlichen oder giftigen Tieren (Giftsc
 2. **Medizinische Evidenz:** Das Protokoll liefert ohne Verzögerung die exakte wissenschaftliche Bezeichnung des Tieres, die Toxizitätsklasse, das spezifisch benötigte Antivenin (Serum) sowie die Dosierungshinweise.
 3. **Logistische Kopplung:** Das System gleicht den Standort des Unfalls mit den Datenbanken der Giftnotrufzentralen und Serum-Depots ab, um den Rettungskräften sofort anzuzeigen, in welcher nächstgelegenen Klinik das passende Antivenin gelagert ist.
 
+## 6. Cryptographic Lineage & Health Verification (CLHV) — Fälschungssichere Ahnenkette
+Um dem illegalen Wildtierhandel, dem Verkauf von Schmuggelware und der Fälschung von Herkunftsnachweisen entgegenzuwirken, etabliert das Protokoll eine kryptografisch verknüpfte Ahnen- und Gesundheitschronik. Stammbäume werden im System nicht als statische Dokumente hinterlegt, sondern als dynamische, signierte Datenketten.
+
+### Funktionsweise:
+1. **Kryptografische Verknüpfung:** Bei der Registrierung einer Nachzucht müssen die SCA-IDs der Elterntiere angegeben werden. Das System fordert eine digitale Signatur (Bestätigung) der jeweiligen Besitzer der Elterntiere an. Erst nach dieser Verifizierung wird die genetische Linie im Protokoll verankert.
+2. **Schutz vor Dokumentenbetrug:** Da die Kette rein digital und über eindeutige IDs läuft, ist es mathematisch unmöglich, fiktive Stammbäume zu erstellen, Wildfänge als Nachzuchten zu deklarieren oder Herkunftspapiere per Bildbearbeitung zu fälschen.
+3. **Anonymisierte Vererbungstracking:** Tritt bei einem Tier ein dokumentierter, genetischer Defekt oder eine Erbkrankheit auf, kann dieser Befund (validiert durch verifizierte Fachtierärzte) im System vermerkt werden. Das Protokoll erlaubt es, das Risiko für Erbkrankheiten in den Folgegenerationen algorithmisch zu berechnen, um Qualzuchten effektiv zu verhindern, während die Identität der Halter anonym bleibt.
+
 ## Leitgedanke
 Die Scalopedia Registry versteht sich nicht als bürokratisches System, sondern als Vertrauensinfrastruktur für eine Community, die verantwortungsvolle Terraristik ernst nimmt. Jede SCA-ID ist ein Versprechen: Dieses Tier existiert, es ist dokumentiert, und seine Geschichte ist nachvollziehbar — für Tierärzte, Behörden, Käufer und die Tiere selbst.
