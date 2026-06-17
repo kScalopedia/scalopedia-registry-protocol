@@ -1,4 +1,4 @@
-# Scalopedia Registry Specification v1.0 — Konzeptentwurf
+# Scalopedia Registry & Safety Protocol Specification v1.0 - Gesamtkonzept
 
 ## 1. Die Tier-ID (SCA-ID)
 Jedes in Scalopedia registrierte Tier erhält eine eindeutige, lebenslange Identifikationsnummer — die SCA-ID. Sie ist unveränderlich, nicht übertragbar und bleibt dem Tier selbst dann erhalten, wenn es den Besitzer wechselt.
